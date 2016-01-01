@@ -2,7 +2,7 @@
 #
 # killzone.sh 
 #
-# launches persistant deauth attack on a target
+# launches persistant deauth attack on a malicious target
 # requires knowledge of target network and MAC address
 # allows 3 command line argument for time between deauth attack (in seconds)
 #
