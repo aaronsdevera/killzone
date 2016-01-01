@@ -2,7 +2,7 @@
 Tool to takedown malicious hosts on a network based on vendor code
 
 ## what it does
-- launches persistant deauth attack on a target
+- launches persistent deauth attack on a target
 - requires knowledge of target network and MAC address
 - allows 3 command line argument for time between deauth attack (in seconds)
 
