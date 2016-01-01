@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# hk.sh 
+# killzone.sh 
 #
 # launches persistant deauth attack on a target
 # requires knowledge of target network and MAC address
@@ -11,7 +11,7 @@
 #
 # note: manual enumeration increases attack accuracy. beware MAC randomization
 #
-# adapted form dropkick.sh <http://julianoliver.com/output/log_2014-05-30_20-52> 
+# adapted from dropkick.sh <http://julianoliver.com/output/log_2014-05-30_20-52> 
 
 shopt -s nocasematch # Set shell to ignore case
 shopt -s extglob # For non-interactive shell.
