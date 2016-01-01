@@ -7,8 +7,8 @@ Tool to takedown malicious hosts on a network based on vendor code
 - allows 3 command line argument for time between deauth attack (in seconds)
 
 ```
-    usage: ./killzone.sh <target network BSSID> <target vendor MAC> <time to wait>
-    ex: ./killzone.sh myNetwork evilHardware 0
+    usage: ./killzone.sh <target network BSSID> <target vendor MAC> <interface> <time to wait>
+    ex: ./killzone.sh myNetwork evilHardware wlan0 0
 ```
 
 # net-select.sh
