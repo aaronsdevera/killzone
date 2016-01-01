@@ -11,6 +11,26 @@ Tool to takedown malicious hosts on a network based on vendor code
     ex: ./killzone.sh myNetwork evilHardware 0
 ```
 
+# net-select.sh
+- identifies a network's BSSID
+- network enumeration tool
+
+```
+    usage: ./net-select.sh "<network name query>"
+    ex: ./net-select.sh "myNetwork"
+```
+
+# mac-lookup.sh
+- searches for MAC addresses given a vendor name
+- appends * character for all addresses in that code's range
+- target enumeration tool
+- makes use of wireshark mac list in `mac-vendor-list.sh`
+
+```
+    usage: ./mac-lookup.sh "<vendor>"
+    ex: ./mac-lookup.sh "huawei"
+```
+
 ## notes
 - manual enumeration increases attack accuracy
 - beware MAC randomization
